@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1>Welcome To Your Task Manager</h1>
-    <button input="text">Add Task</button>
-    <input type="text" placeholder="Enter your task here">
-    <ol>
-        <li>Task 1</li>
-    </ol>
-    <button>Remove Task</button>
+    <form>
+        <label for="task">Task:</label>
+        <input type="text" id="task" placeholder="Enter your task here">
+        <button type="submit">Add task</button>
+
+    </form>
+    <ul id="task_list"></ul>
+    <script src="script.js"></script>
 </body>
 </html>
