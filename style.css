@@ -1,0 +1,21 @@
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 2em;
+}
+#task{
+  font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+.container{
+    max-width: 500px;
+    margin :0 auto;
+    padding:20px;  
+    
+    
+}
