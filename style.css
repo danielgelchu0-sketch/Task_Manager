@@ -3,8 +3,8 @@ h1 {
     text-align: center;
     font-size: 2em;
 }
-#task{
-  font-family: Arial, sans-serif;
+input,button{
+  font-family:inherit;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 .container{
     max-width: 500px;
-    margin :0 auto;
+    margin:0 auto;
     padding:20px;  
     
     
